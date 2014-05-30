@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <h1>StaticPage#home</h1>
+  <p>Find me in app/views/static_page/home.html.erb</p>
+  <%= form_tag do %>
+  <%= check_box_tag(:pet_dog) %>
+  <%= label_tag(:pet_dog, "I own a dog.") %>
+  <%= text_field(:person, :name) %>
+
+  <% end %>
+
+</body>
+</html>
